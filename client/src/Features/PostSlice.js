@@ -35,7 +35,6 @@ export const getPosts = createAsyncThunk("post/getPosts", async () => {
     console.log(error);
   }
 });
-
 //thunk for like and dislike
 export const likePost = createAsyncThunk("posts/likePost", async (postData) => {
   try {
